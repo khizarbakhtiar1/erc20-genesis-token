@@ -99,6 +99,6 @@ contract GenesisToken is ERC20Interface, SafeMath {
     }
 
     receive() external payable {
-        revert("QKCToken: fallback function not allowed");
+        revert("GNT Token: fallback function not allowed");
     }
 }
